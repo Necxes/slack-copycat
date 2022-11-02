@@ -1,0 +1,24 @@
+/* Header  */
+.chat-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(240,240,240);
+  margin-bottom: 1rem;
+}
+
+.chat-header i {
+  font-size: 1.275rem;
+  padding-top: .25rem;
+  margin-right: .35rem;
+}
+
+.chat-header h1 {
+  margin: 0;
+}
+
+/* Chat-Messages */
+#chat-messages {
+  max-height: 80vh;
+  overflow-y: scroll;
+  flex-grow: 1;
+}

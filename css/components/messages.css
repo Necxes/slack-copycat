@@ -1,0 +1,36 @@
+/* Message */
+.chat-message-container {
+  display: flex;
+  padding: .5rem;
+}
+
+.chat-message-container img {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  margin-right: 1rem;
+  object-fit: cover;
+}
+
+.chat-message p {
+  margin: 0;
+  hyphens: auto;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.code {
+  color: #d63384;
+  font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  font-size: .875em;
+}
+
+.time-stamp {
+  color: darkgray;
+  font-size: .9rem;
+}
+
+.new-message {
+  background: rgba(252, 231, 0, 10%);
+}

@@ -1,0 +1,13 @@
+.online-icon {
+  font-size: .5rem;
+  margin-right: .5rem;
+}
+
+.online-icon-true {
+  color: #1FE5BD;
+}
+
+.online-icon-false {
+  color: white;
+  opacity: .5;
+}
